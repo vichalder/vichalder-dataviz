@@ -28,7 +28,7 @@ url: "https://vichalder.github.io" # the base hostname & protocol for your site,
 github_username:  vichalder
 
 # Build settings
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
 
