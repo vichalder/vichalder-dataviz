@@ -5,6 +5,11 @@
 layout: default
 ---
 
-# Welcome to my Hacker Theme!
+# This is the homepage
 
-This is a test to see if the hacker theme is working correctly.
+#### Click on the page you want to examine.
+
+## Pages
+
+*   [About](/about.markdown)
+*   [Lecture 7](/lecture7.markdown)
