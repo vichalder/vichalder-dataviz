@@ -1,27 +1,34 @@
----
-layout: default
-title: Crime Distribution Analysis
----
+# Plot
 
 <div class="bokeh-container">
     <iframe 
         src="{{ site.baseurl }}/assets/plots/crime_distribution.html"
         width="100%" 
-        height="800px"
-        frameborder="0"
-        scrolling="no">
+        height="{{ include.height | default: '600px' }}"
+        frameborder="0" 
+        scrolling="no"
+        style="display: block; margin: 0; padding: 0;">
     </iframe>
 </div>
+
 <style>
 .bokeh-container {
     position: relative;
     width: 100%;
-    margin: 20px auto;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    line-height: 0; /* This removes extra vertical space */
+    display: block;
+}
+
+/* Remove any potential margins from parent elements */
+.bokeh-container * {
+    margin: 0;
+    padding: 0;
 }
 </style>
 
-## Code
+# Code
 
 ```python
 import numpy as np
