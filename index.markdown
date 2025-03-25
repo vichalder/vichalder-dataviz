@@ -12,4 +12,5 @@ layout: default
 ## Pages
 
 *   [About](/about.markdown)
+*   [Lecture 6](/lecture6.markdown)
 *   [Lecture 7](/lecture7.markdown)
