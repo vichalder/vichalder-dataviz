@@ -1,0 +1,19 @@
+<div class="bokeh-container">
+    <iframe 
+        src="{{ include.plot_path }}"
+        width="100%" 
+        height="{{ include.height | default: '800px' }}"
+        frameborder="0" 
+        scrolling="no"
+        style="overflow: hidden;">
+    </iframe>
+</div>
+
+<style>
+.bokeh-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+</style>

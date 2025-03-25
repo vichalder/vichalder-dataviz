@@ -1,6 +1,27 @@
-# Lecture 6 bokeh plot
+---
+layout: default
+title: Crime Distribution Analysis
+---
 
-![alt text](image-1.png)
+<div class="bokeh-container">
+    <iframe 
+        src="{{ site.baseurl }}/assets/plots/crime_distribution.html"
+        width="100%" 
+        height="800px"
+        frameborder="0"
+        scrolling="no">
+    </iframe>
+</div>
+<style>
+.bokeh-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+</style>
+
+## Code
 
 ```python
 import numpy as np

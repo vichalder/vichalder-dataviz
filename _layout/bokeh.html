@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="bokeh-container">
+    <iframe src="{{ page.bokeh_plot }}" 
+            width="100%" 
+            height="{{ page.plot_height | default: '600px' }}" 
+            frameborder="0">
+    </iframe>
+</div>
+
+<style>
+    .bokeh-container {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+</style>
