@@ -13,7 +13,7 @@
 
 <div class="bokeh-container">
     <iframe 
-        src="{{ site.baseurl }}/assets/plots/SF_Prostitution_Animated_Heatmap_v2.html"
+        src="{{ site.baseurl }}/assets/plots/crime_map.html"
         width="100%"
         height="{{ include.height | default: '600px' }}"
         frameborder="0" 
