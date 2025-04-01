@@ -14,3 +14,4 @@ layout: default
 *   [About](/about.markdown)
 *   [Lecture 6](/lecture6.markdown)
 *   [Lecture 7](/lecture7.markdown)
+*   [Assignment 2](/assignment2.markdown)
